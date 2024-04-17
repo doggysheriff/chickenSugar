@@ -14,7 +14,7 @@ def get_ai_response(prompt):
         engine="text-davinci-003",  # Using Davinci as the model
         # Ensuring the prompt is the response from the AI
         prompt=prompt,
-        # Amount of max characters the AI responds with 
+        # Amount of max characters the AI responds with - fundamental unit of data processed by algorithyms
         max_tokens=150,
         # Gauges how much the the ai is similar to another response it has already made
         temperature=0.9  # Adjust for more varied outputs
